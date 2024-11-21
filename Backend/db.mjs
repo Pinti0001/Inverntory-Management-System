@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-const mongourl = "mongosb://127.0.0.1:27017/IMS";
+const mongourl = "mongodb+srv://pintu008:PLCGQuy9MovSYNp1@cluster0.7omixsg.mongodb.net/IMS";
 
 const connectToMongo = async()=>{
     try {
