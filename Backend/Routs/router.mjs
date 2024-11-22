@@ -1,7 +1,6 @@
 import express from 'express';
 const router = express.Router();
 import products from '../Models/product.mjs';
-import { add } from 'mathjs';
 
 router.post("/insertproduct", (req,res)=>{
     const {productName, productBarcode, productPrice} = req.body;
